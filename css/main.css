@@ -1,0 +1,10 @@
+body{
+	background-color: #bef3f4;
+}
+.navbar-brand{
+	max-height: 5px;
+    max-width: auto; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
