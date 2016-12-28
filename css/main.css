@@ -1,5 +1,8 @@
 body{
-	background-color: #bef3f4;
+	background-color: #0B3C5D;
+}
+hr{
+	border: 5px solid #D9B310;
 }
 .navbar-brand{
 	max-height: 5px;
@@ -7,4 +10,95 @@ body{
     overflow: visible;
     padding-top: 0;
     padding-bottom: 0;
+}
+.navbar-default {
+  background-color: #1d2731;
+  border-color: #0b3c5d;
+}
+.navbar-default .navbar-brand {
+  color: #d9b310;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #328cc1;
+}
+.navbar-default .navbar-text {
+  color: #d9b310;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #d9b310;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #328cc1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #328cc1;
+  background-color: #0b3c5d;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #328cc1;
+  background-color: #0b3c5d;
+}
+.navbar-default .navbar-toggle {
+  border-color: #0b3c5d;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0b3c5d;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #d9b310;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #d9b310;
+}
+.navbar-default .navbar-link {
+  color: #d9b310;
+}
+.navbar-default .navbar-link:hover {
+  color: #328cc1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #d9b310;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #328cc1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #328cc1;
+    background-color: #0b3c5d;
+  }
+}
+#welcomehead{
+	text-align: center;
+	color: #D9B310;
+	font-family: Impact, sans-serif;
+}
+#welcomebody{
+	text-align: center;
+	color: #1D2731;
+}
+#motto{
+	color: #D9B310;
+}
+.jumbotron{
+	background-color: #328CC1;
+	position:relative;
+	z-index: 2;
+	box-shadow: 0 16px 16px -6px black;
+}
+#myCarousel.carousel.slide {
+    width: 1212px; 
+    height: 425px;
 }
