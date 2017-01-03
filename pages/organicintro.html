@@ -4,8 +4,8 @@
 	<meta charset="uft-8">
 	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to the ChemComplete Resource Center</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 	<div id="homepage">
@@ -18,11 +18,11 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="https://www.youtube.com/channel/UC8igjt4q1gZOWTEYOpyJLIQ"><img class="img-responsive" src="img/CClogo.jpg"></a>
+					<a class="navbar-brand" href="https://www.youtube.com/channel/UC8igjt4q1gZOWTEYOpyJLIQ"><img class="img-responsive" src="../img/CClogo.jpg"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+						<li><a href="../index.html">Home</a></li>
 						<li><a href="https://www.udemy.com/chemcomplete-alkene-microcourse/">Enroll for Class</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Chemistry I<span class="caret"></span></a>
@@ -54,10 +54,10 @@
 								<li><a href="#">Nuclear Chemistry</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
+						<li class="dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organic Chemistry I<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="pages/organicintro.html">Introduction Material</a></li>
+								<li class="active"><a href="#">Introduction Material</a></li>
 								<li><a href="#">Functional Groups</a></li>
 								<li><a href="#">Acid Base Organic Chemistry</a></li>
 								<li><a href="#">Alkanes and Cycloalkanes</a></li>
@@ -92,61 +92,48 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
-		<div class="container">
-			<div class="jumbotron">
-				<h1 class="welcomehead"> Welcome to the ChemComplete website!</h1>
-				<hr>
-				<h3 id="welcomebody"> This is a resource website for all your learning needs for general and organic chemistry. <hr> <span id="motto">"Chemistry does not have to be difficult, it just needs to be taught properly".</span></h3>
-				</br>
-			</div>
-		</div>
-		<div class="container">
+		<h1 class="welcomehead">Introduction to Organic Chemistry</h1>
+		<div class="infopage container">
 			<div class="row">
-				<div class="col-md-4">
-					<p class="colborder">Ready to learn? ChemComplete offers multiple options including online YouTube lectures, this resource website, and official classes with office hours and practice materials over at Udemy.</p>
+				<div class="col-md-9 col-sm-9 col-xs-9">
+					<h2>Carbon and Organic Chemistry</h2>
+					<p>Almost all students have a general sense of what sets organic chemistry apart from general inorganic chemistry when they enter their course. Carbon. That fantastic little atom found in Group 4A that can make up graphite or a diamond pending its arrangement. So what makes carbon so special? </p>
+					<ul>
+						<li>Carbon can form up to 4 bonds given its Lewis structure arrangement making it a versatile central atom for compounds </li>
+						<li>All current known life forms require some carbon based chemistry and biochemistry</li>
+						<li>All fuel and food for living systems to survive are carbon based</li>
+					</ul>
+					<p>While carbon is the central backbone to organic structures and molecules, several other atoms are commonly found in these structures which include:</p>
+					<table id="tab1">
+						<tr>
+							<th>Element</th>
+							<th>Importance</th>
+						</tr>
+						<tr>
+							<td>Hydrogen</td>
+							<td>The most common element in organic chemistry next to carbon. Almost always found alongside carbon giving rise to the term hydrocarbon.</td>
+						</tr>
+						<tr>
+							<td>Oxygen</td>
+							<td>Second only to hydrogen, oxygen is often found with carbon making up many of the organic functional groups such as aldehydes, ketones, alcohols, and more.</td>
+						</tr>
+						<tr>
+							<td>Nitrogen</td>
+							<td>Nitrogen is another atom often found in organic compounds. It has important roles in many biochemical molecules such as proteins and nucleotides (DNA)</td>
+						</tr>
+						<tr>
+							<td>The Halogens</td>
+							<td>While less common, the halogens play important roles in many organic compounds and often serve as groups that can easily be removed and replaced with other desired functionalities.</td>
+						</tr>
+					</table>
 				</div>
-				<div class="col-md-4">
-					<p class="colborder">Muddling up your mechanisms? Screwing up your syntheses? Not sure if it is an ortho-para director or meta director? Check out our organic chemistry study guides and help support the site!
-					<br>
-					<button type="button" class="btn btn-lg btn-info">Browse Guides</button>
-					</p>
-				</div>
-				<div class="col-md-4">
-					<p class="colborder">Looking for practice materials? Sign up for an account with us and get started with dozens of worksheets, practice tests, and matching answer keys. Sign up now and get lifetime access to these materials!</p> 
-				</div>
-			</div>		
-		</div>
-		<div id="myCarousel" class="carousel slide container" data-ride="carousel">
-  <!-- Indicators -->
- 			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-			</ol>
-  <!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<a href="https://www.youtube.com/channel/UC8igjt4q1gZOWTEYOpyJLIQ"><img src="img/CCyoutube.png" alt="ChemComplete on Youtube"></a>
-					<div class="carousel-caption">
-						<h3>ChemComplete on Youtube!</h3>
-						<p>Visit us on Youtube for free lessons!</p>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/CCudemy.png" alt="Take Udemy Class">
-					<div class="carousel-caption">
-						<h3>Take the official courses.</h3>
-						<p>Enroll in our online program, complete with direct support!</p>
-					</div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<img src="../img/elementcarbon.jpg" class="img-responsive">
 				</div>
 			</div>
-  <!-- Left and right controls -->
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span></a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
 	</div>
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

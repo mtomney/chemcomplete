@@ -80,7 +80,7 @@ hr{
     background-color: #0b3c5d;
   }
 }
-#welcomehead{
+.welcomehead{
 	text-align: center;
 	color: #D9B310;
 	font-family: Impact, sans-serif;
@@ -98,7 +98,39 @@ hr{
 	z-index: 2;
 	box-shadow: 0 16px 16px -6px black;
 }
+.col-md-4{
+	text-align: center;
+	color: #D9B310;
+	font-size: 25px;
+}
+.colborder{
+	padding-right:20px; 
+	border-right: 1px solid #D9B310;
+}
 #myCarousel.carousel.slide {
     width: 1212px; 
     height: 425px;
+}
+.infopage{
+	background-color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+table#tab1 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#tab1 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#tab1 th {
+    color: white;
+    background-color: #1D2731;
 }
